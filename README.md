@@ -17,11 +17,11 @@ This is Minerva - CABAL Online Server Emulator, written in C# language. Initiall
 
 ### Client Download Links ###
 
-** Cabal Brazil Client Portuguese: **
+**Cabal Brazil Client Portuguese:**
 * [Download CABAL BR EP18 Primary]http://cabal.br.playthisgame.com/pt/FullClient/BRASIL
 * [Download CABAL BR EP18 Secondary]http://cabal.br.playthisgame.com/pt/FullClient/GLOBAL
 
-** Cabal Global Client English: **
+**Cabal Global Client English:**
 * [Download CABAL ENG EP18 Primary]http://cabal.playthisgame.com/en/FullClient/WEST
 * [Download CABAL ENG EP18 Secondary]http://cabal.playthisgame.com/en/FullClient/GLOBAL
 
