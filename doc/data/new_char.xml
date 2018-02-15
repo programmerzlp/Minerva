@@ -1,0 +1,115 @@
+<cabal>
+	<!-- This file defines default items, skills and quickslots of newly-created characters -->
+	<init>
+		<!--
+			<item> elements have a fair few attributes you can set.  They are as follows:
+			REQUIRED:
+				class: The character class this item should be given to.
+				id: The item ID.
+				slot: The inventory slot to put the item in.
+			OPTIONAL:
+				amount: The amount of items to give the player.
+				bonus: The bonus of the item (+1, +7, etc.).
+				is_bound: Whether or not this item is account-bound (0 = false, 1 = true)			
+				upgrades: The number of upgrade slots this item has.
+				upgrade_x: The upgrade in slot x (where x = 1, 2, 3, or 4).
+				craft_type: The type of this item's craft.
+				craft_bonus: The bonus provided by this item's craft.
+				expiration: The expiration type of this item.
+		-->
+		
+		<item class="-1" id="3" amount="5" slot="0" />	
+		<item class="-1" id="6" amount="20" slot="1" />
+		<item class="-1" id="12" amount="5" slot="9" />	
+		
+		<item class="1" id="240" slot="2" />	
+		<item class="2" id="270" slot="2" />		
+		<item class="3" id="270" slot="2" />	
+		<item class="4" id="255" slot="2" />
+		<item class="5" id="240" slot="2" />	
+		<item class="6" id="255" slot="2" />	
+		<item class="7" id="240" slot="2" />
+		
+		<!--
+			class: The character class this skill should be given to.
+			id: The skill ID.
+			level: The level of the skill.
+			slot: The skill slot to put this skill in (sword skills start at 0, magic at 32).
+			slot  67:  astral weapon(shield/bow)
+			slot 104:  saint's force
+		-->
+		
+		<skill class="-1" id="340" level="1" slot="72" />
+		<skill class="-1" id="341" level="1" slot="73" />
+		<skill class="-1" id="400" level="1" slot="75" />
+		<skill class="-1" id="380" level="1" slot="78" />
+		<skill class="-1" id="381" level="1" slot="79" />
+		<skill class="-1" id="382" level="1" slot="80" />
+		<skill class="-1" id="421" level="1" slot="102" />
+		<skill class="-1" id="422" level="1" slot="103" />
+		<skill class="-1" id="474" level="1" slot="104" />
+		<skill class="-1" id="481" level="1" slot="105" />
+		<skill class="-1" id="482" level="1" slot="106" />
+		<skill class="-1" id="483" level="1" slot="107" />
+		
+		<skill class="1" id="2" level="1" slot="0" />
+		<skill class="1" id="1" level="1" slot="1" />
+		
+		<skill class="2" id="2" level="1" slot="0" />
+		<skill class="2" id="1" level="1" slot="1" />
+		
+		<skill class="3" id="424" level="1" slot="32" />
+		<skill class="3" id="129" level="1" slot="33" />
+		
+		<skill class="4" id="100" level="1" slot="32" />
+		<skill class="4" id="148" level="1" slot="33" />
+		<skill class="4" id="331" level="1" slot="67" />
+		
+		<skill class="5" id="2" level="1" slot="0" />
+		<skill class="5" id="157" level="1" slot="32" />
+		<skill class="5" id="332" level="1" slot="67" />
+
+		<skill class="6" id="2" level="1" slot="0" />
+		<skill class="6" id="100" level="1" slot="32" />
+		<skill class="6" id="252" level="1" slot="33" />
+		
+		<skill class="7" id="76" level="1" slot="0" />
+		<skill class="7" id="77" level="1" slot="1" />
+		
+		<!--
+			class: The character class this quickslot should be given to.
+			id: The skill ID (referenced by skill slot ID).
+			slot: The quickbar slot to put this quickslot in.
+		-->	
+
+		<quickslot class="-1" id="132" slot="0" />
+		<quickslot class="-1" id="131" slot="8" />
+		<quickslot class="-1" id="237" slot="9" />
+		<quickslot class="-1" id="239" slot="10" />
+		<quickslot class="-1" id="130" slot="11" />
+		
+		<quickslot class="1" id="0" slot="1" />
+		<quickslot class="1" id="1" slot="2" />
+		
+		<quickslot class="2" id="0" slot="1" />
+		<quickslot class="2" id="1" slot="2" />
+		
+		<quickslot class="3" id="32" slot="1" />
+		<quickslot class="3" id="33" slot="2" />
+		
+		<quickslot class="4" id="32" slot="1" />
+		<quickslot class="4" id="33" slot="2" />
+		<quickslot class="4" id="67" slot="3" />
+		
+		<quickslot class="5" id="0" slot="1" />
+		<quickslot class="5" id="32" slot="2" />
+		<quickslot class="5" id="67" slot="3" />
+		
+		<quickslot class="6" id="0" slot="1" />
+		<quickslot class="6" id="32" slot="2" />
+		<quickslot class="6" id="33" slot="3" />
+		
+		<quickslot class="7" id="0" slot="1" />
+		<quickslot class="7" id="1" slot="2" />
+	</init>
+</cabal>

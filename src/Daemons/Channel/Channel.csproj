@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A043B73-7755-4D89-ABD8-446E72DC14BC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Minerva</RootNamespace>
+    <AssemblyName>channel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\build\x64\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PLATFORM_X64</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>..\..\..\build\x64\</OutputPath>
+    <DefineConstants>TRACE;PLATFORM_X64</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\build\x86\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PLATFORM_X86</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\..\..\build\x86\</OutputPath>
+    <DefineConstants>TRACE;PLATFORM_X86</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ucm.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Game\Character.cs" />
+    <Compile Include="Game\Equipment.cs" />
+    <Compile Include="Game\Inventory.cs" />
+    <Compile Include="Game\QuickSlots.cs" />
+    <Compile Include="Game\CashItem.cs" />
+    <Compile Include="Game\Skills.cs" />
+    <Compile Include="Game\Stats.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="IPC Calls\SubpassManagement.cs" />
+    <Compile Include="IPC Calls\CharacterManagement.cs" />
+    <Compile Include="IPC Calls\Authentication.cs" />
+    <Compile Include="Packets\Methods\Unnamed\PetInfo.cs" />
+    <Compile Include="Packets\Methods\Unnamed\ReqCraft .cs" />
+    <Compile Include="Packets\Methods\Unnamed\CashNPC.cs" />
+    <Compile Include="Packets\Methods\World\PC_ItemDropped.cs" />
+    <Compile Include="SkillData.cs" />
+    <Compile Include="ItemEntity.cs" />
+    <Compile Include="MapCell.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="SkillLoader.cs" />
+    <Compile Include="MapLoader.cs" />
+    <Compile Include="Packets\Enumerations.cs" />
+    <Compile Include="Packets\Main.cs" />
+    <Compile Include="Packets\Methods\Account\NFY_ChargeInfo.cs" />
+    <Compile Include="Packets\Methods\CashItem\RecvCashItem.cs" />
+    <Compile Include="Packets\Methods\Character\AddSkillPoints.cs" />
+    <Compile Include="Packets\Methods\Character\AddStatPoints.cs" />
+    <Compile Include="Packets\Methods\Character\SpecialInventoryList.cs" />
+    <Compile Include="Packets\Methods\Character\MeritSytem.cs" />
+    <Compile Include="Packets\Methods\Monster\NewMobsList - Cópia .cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown1E5.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown9D8.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown843.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown9DA.cs" />
+    <Compile Include="Packets\Methods\Unnamed\UnknownCE9.cs" />
+    <Compile Include="Packets\Methods\World\ChangeChannel.cs" />
+    <Compile Include="Packets\Methods\World\CharacterSelect.cs" />
+    <Compile Include="Packets\Methods\World\Initialized.cs" />
+    <Compile Include="Packets\Methods\World\Initialized_bkup.cs" />
+    <Compile Include="Packets\Methods\World\UpdateHelpInfo.cs" />
+    <Compile Include="Packets\Methods\Movement\ChangeDirection.cs" />
+    <Compile Include="Packets\Methods\Character\ChangeStyle.cs" />
+    <Compile Include="Packets\Methods\Account\ChargeInfo.cs" />
+    <Compile Include="Packets\Methods\Character\Lobby\CheckUserPrivacyData.cs" />
+    <Compile Include="Packets\Methods\Movement\PC_WarpCommand.cs" />
+    <Compile Include="Packets\Methods\Movement\WarpCommand.cs" />
+    <Compile Include="Packets\Methods\Quest\QuestReward.cs" />
+    <Compile Include="Packets\Methods\Quest\QuestEnd.cs" />
+    <Compile Include="Packets\Methods\Quest\QuestNextStep.cs" />
+    <Compile Include="Packets\Methods\Quest\QuestStart.cs" />
+    <Compile Include="Packets\Methods\Skill\NormalAttack.cs" />
+    <Compile Include="Packets\Methods\Skill\SaveQuickSlot.cs" />
+    <Compile Include="Packets\Methods\Skill\SkillToMobs.cs" />
+    <Compile Include="Packets\Methods\World\Connect2Svr.cs" />
+    <Compile Include="Packets\Methods\Character\Lobby\DelMyChartr.cs" />
+    <Compile Include="Packets\Methods\Character\Lobby\GetMyChartr.cs" />
+    <Compile Include="Packets\Methods\World\GetSvrTime.cs" />
+    <Compile Include="Packets\Methods\Movement\KeyMoveBegined.cs" />
+    <Compile Include="Packets\Methods\Movement\KeyMoveChanged.cs" />
+    <Compile Include="Packets\Methods\Chat\MessageEvnt.cs" />
+    <Compile Include="Packets\Methods\Monster\MobsMoveEnd.cs" />
+    <Compile Include="Packets\Methods\Movement\MoveBegined.cs" />
+    <Compile Include="Packets\Methods\Movement\MoveChanged.cs" />
+    <Compile Include="Packets\Methods\Movement\MoveEnded.cs" />
+    <Compile Include="Packets\Methods\Movement\MoveTilePos.cs" />
+    <Compile Include="Packets\Methods\Monster\NewMobsList.cs" />
+    <Compile Include="Packets\Methods\Character\Lobby\NewMyChartr.cs" />
+    <Compile Include="Packets\Methods\Character\NewUserList.cs" />
+    <Compile Include="Packets\Methods\Character\NFY_ChangeStyle.cs" />
+    <Compile Include="Packets\Methods\Character\NFY_ItemEquip.cs" />
+    <Compile Include="Packets\Methods\Character\NFY_ItemUnEquip.cs" />
+    <Compile Include="Packets\Methods\Monster\PC_MobsMoveBgn.cs" />
+    <Compile Include="Packets\Methods\Monster\PC_MobSpawned.cs" />
+    <Compile Include="Packets\Methods\Character\PC_UpdateStats.cs" />
+    <Compile Include="Packets\Methods\CashItem\QueryCashItem.cs" />
+    <Compile Include="Packets\Methods\World\PC_ErrorCode.cs" />
+    <Compile Include="Packets\Methods\World\ChannelSelectList.cs" />
+    <Compile Include="Packets\Methods\World\ServerEnv.cs" />
+    <Compile Include="Packets\Methods\Character\SetCharacterSlotOrder.cs" />
+    <Compile Include="Packets\Methods\Skill\SkillToActs.cs" />
+    <Compile Include="Packets\Methods\Skill\SkillToUser.cs" />
+    <Compile Include="Packets\Methods\Character\StorageExchangeMove.cs" />
+    <Compile Include="Packets\Methods\SubPassword\CharacterDeleteCheckSubPassword.cs" />
+    <Compile Include="Packets\Methods\SubPassword\SubPasswordChangeQA.cs" />
+    <Compile Include="Packets\Methods\SubPassword\SubPasswordChangeQARequest.cs" />
+    <Compile Include="Packets\Methods\SubPassword\SubPasswordCheck.cs" />
+    <Compile Include="Packets\Methods\SubPassword\SubPasswordCheckRequest.cs" />
+    <Compile Include="Packets\Methods\SubPassword\SubPasswordDel.cs" />
+    <Compile Include="Packets\Methods\SubPassword\SubPasswordDelRequest.cs" />
+    <Compile Include="Packets\Methods\SubPassword\SubPasswordFind.cs" />
+    <Compile Include="Packets\Methods\SubPassword\SubPasswordFindRequest.cs" />
+    <Compile Include="Packets\Methods\SubPassword\SubPasswordSet.cs" />
+    <Compile Include="Packets\Methods\World\Uninitialize.cs" />
+    <Compile Include="Packets\Methods\World\Ping.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown8C8.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown9E0.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown9D6.cs" />
+    <Compile Include="Packets\Methods\Unnamed\UnknownA0B.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown193.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown191.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown194.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown9C8.cs" />
+    <Compile Include="Packets\Methods\World\VerifyLinks.cs" />
+    <Compile Include="Packets\Structures\Client\Equipment.cs" />
+    <Compile Include="Packets\Structures\Client\IClientStructure.cs" />
+    <Compile Include="Packets\Structures\Client\Item.cs" />
+    <Compile Include="Packets\Structures\Database\IDatabaseStructure.cs" />
+    <Compile Include="Packets\Structures\Database\Item.cs" />
+    <Compile Include="Packets\Methods\Unnamed\Unknown_86C.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\Common\Util\Info.cs">
+      <Link>Util\Info.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Util\IniReader.cs">
+      <Link>Util\IniReader.cs</Link>
+    </Compile>
+    <Compile Include="Structures.cs" />
+    <Compile Include="Tile.cs" />
+    <Compile Include="Util\Configuration.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ucm.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ObjectBuddy\ObjectBuddy.csproj">
+      <Project>{2CDCB1B1-2257-425C-AC79-FB1197DE8F30}</Project>
+      <Name>ObjectBuddy</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

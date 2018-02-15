@@ -1,0 +1,668 @@
+<InitialData>
+	<char_init>
+		<init	style="1"	name="class1"	world_id="1"	x="21"	y="37"	suit_1="105"	glove_2="150"	boot_3="195"	rhand_4="90"	lhand_5=""	icon="J_icn_battle001_1"	delta_hp="30"	delta_mp="10"	hp="50"	mp="20"	/>
+		<init	style="2"	name="class2"	world_id="2"	x="75"	y="205"	suit_1="135"	glove_2="180"	boot_3="225"	rhand_4="45"	lhand_5="60"	icon="J_icn_battle002_1"	delta_hp="30"	delta_mp="10"	hp="50"	mp="20"	/>
+		<init	style="3"	name="class3"	world_id="2"	x="75"	y="205"	suit_1="135"	glove_2="180"	boot_3="225"	rhand_4="15"	lhand_5="15"	icon="J_icn_battle003_1"	delta_hp="20"	delta_mp="20"	hp="40"	mp="30"	/>
+		<init	style="4"	name="class4"	world_id="3"	x="160"	y="61"	suit_1="120"	glove_2="165"	boot_3="210"	rhand_4="30"	lhand_5="30"	icon="J_icn_battle004_1"	delta_hp="20"	delta_mp="20"	hp="40"	mp="30"	/>
+		<init	style="5"	name="class5"	world_id="1"	x="21"	y="37"	suit_1="105"	glove_2="150"	boot_3="195"	rhand_4="60"	lhand_5="30"	icon="J_icn_battle005_1"	delta_hp="25"	delta_mp="15"	hp="45"	mp="25"	/>
+		<init	style="6"	name="class6"	world_id="3"	x="160"	y="61"	suit_1="120"	glove_2="165"	boot_3="210"	rhand_4="45"	lhand_5="15"	icon="J_icn_battle006_1"	delta_hp="25"	delta_mp="15"	hp="45"	mp="25"	/>
+		<init	style="7"	name="class7"	world_id="1"	x="21"	y="37"	suit_1="105"	glove_2="150"	boot_3="195"	rhand_4="33554774"	lhand_5="33554774"	icon="J_icn_battle007_1"	delta_hp="25"	delta_mp="9"	hp="50"	mp="20"	/>
+	</char_init>
+	<char_newhp>
+		<newhp	bs="1"	bdelta="500"	/>
+		<newhp	bs="2"	bdelta="389"	/>
+		<newhp	bs="3"	bdelta="79"	/>
+		<newhp	bs="4"	bdelta="184"	/>
+		<newhp	bs="5"	bdelta="450"	/>
+		<newhp	bs="6"	bdelta="310"	/>
+		<newhp	bs="7"	bdelta="350"	/>
+	</char_newhp>
+	<initstat>
+		<initstat	id="1"	str="24"	dex="8"	int="3"	/>
+		<initstat	id="2"	str="16"	dex="16"	int="3"	/>
+		<initstat	id="3"	str="3"	dex="6"	int="26"	/>
+		<initstat	id="4"	str="6"	dex="12"	int="17"	/>
+		<initstat	id="5"	str="15"	dex="9"	int="11"	/>
+		<initstat	id="6"	str="12"	dex="11"	int="12"	/>
+		<initstat	id="7"	str="17"	dex="13"	int="5"	/>
+	</initstat>
+	<char_make>
+		<make	suit_1="2762"	glove_2="2768"	boot_3="2774"	rhand_4="96"	lhand_5=""	/>
+		<make	suit_1="2766"	glove_2="2772"	boot_3="2778"	rhand_4="51"	lhand_5="66"	/>
+		<make	suit_1="2767"	glove_2="2773"	boot_3="2779"	rhand_4="21"	lhand_5="21"	/>
+		<make	suit_1="2765"	glove_2="2771"	boot_3="2777"	rhand_4="36"	lhand_5="36"	/>
+		<make	suit_1="2763"	glove_2="2769"	boot_3="2775"	rhand_4="66"	lhand_5="36"	/>
+		<make	suit_1="2764"	glove_2="2770"	boot_3="2776"	rhand_4="51"	lhand_5="21"	/>
+		<make	suit_1="33554793"	glove_2="33554794"	boot_3="33554795"	rhand_4="33554780"	lhand_5="33554780"	/>
+	</char_make>
+	<rankup>
+		<rankup_condition	rank="1"	>
+			<condition	twohand="32"	dual="32"	magic="32"	magic_arrow="32"	sword_shield="32"	magic_sword="32"	chakram="32"	/>
+		</rankup_condition>
+		<rankup_condition	rank="2"	>
+			<condition	twohand="64"	dual="64"	magic="64"	magic_arrow="64"	sword_shield="64"	magic_sword="64"	chakram="64"	/>
+		</rankup_condition>
+		<rankup_condition	rank="3"	>
+			<condition	twohand="96"	dual="96"	magic="96"	magic_arrow="96"	sword_shield="96"	magic_sword="96"	chakram="96"	/>
+		</rankup_condition>
+		<rankup_condition	rank="4"	>
+			<condition	twohand="128"	dual="128"	magic="128"	magic_arrow="128"	sword_shield="128"	magic_sword="128"	chakram="128"	/>
+		</rankup_condition>
+		<rankup_condition	rank="5"	>
+			<condition	twohand="160"	dual="160"	magic="160"	magic_arrow="160"	sword_shield="160"	magic_sword="160"	chakram="160"	/>
+		</rankup_condition>
+		<rankup_condition	rank="6"	>
+			<condition	twohand="192"	dual="192"	magic="192"	magic_arrow="192"	sword_shield="192"	magic_sword="192"	chakram="192"	/>
+		</rankup_condition>
+		<rankup_condition	rank="7"	>
+			<condition	twohand="224"	dual="224"	magic="224"	magic_arrow="224"	sword_shield="224"	magic_sword="224"	chakram="224"	/>
+		</rankup_condition>
+		<rankup_condition	rank="8"	>
+			<condition	twohand="256"	dual="256"	magic="256"	magic_arrow="256"	sword_shield="256"	magic_sword="256"	chakram="256"	/>
+		</rankup_condition>
+		<rankup_condition	rank="9"	>
+			<condition	twohand="288"	dual="288"	magic="288"	magic_arrow="288"	sword_shield="288"	magic_sword="288"	chakram="288"	/>
+		</rankup_condition>
+		<rankup_condition	rank="10"	>
+			<condition	twohand="320"	dual="320"	magic="320"	magic_arrow="320"	sword_shield="320"	magic_sword="320"	chakram="320"	/>
+		</rankup_condition>
+		<rank_bonus	readyrank="0"	anum="3"	bnum="2"	commonnum="1"	specialnum="1"	stat="0"	/>
+		<rank_bonus	readyrank="1"	anum="4"	bnum="3"	commonnum="2"	specialnum="1"	stat="16"	/>
+		<rank_bonus	readyrank="2"	anum="6"	bnum="5"	commonnum="2"	specialnum="2"	stat="24"	/>
+		<rank_bonus	readyrank="3"	anum="8"	bnum="7"	commonnum="3"	specialnum="3"	stat="32"	/>
+		<rank_bonus	readyrank="4"	anum="9"	bnum="8"	commonnum="3"	specialnum="4"	stat="40"	/>
+		<rank_bonus	readyrank="5"	anum="11"	bnum="10"	commonnum="4"	specialnum="5"	stat="48"	/>
+		<rank_bonus	readyrank="6"	anum="13"	bnum="11"	commonnum="4"	specialnum="5"	stat="56"	/>
+		<rank_bonus	readyrank="7"	anum="15"	bnum="13"	commonnum="5"	specialnum="5"	stat="56"	/>
+		<rank_bonus	readyrank="8"	anum="17"	bnum="15"	commonnum="5"	specialnum="5"	stat="56"	/>
+		<rank_bonus	readyrank="9"	anum="18"	bnum="16"	commonnum="6"	specialnum="5"	stat="56"	/>
+		<mastery_levelup	level="1"	>
+			<condition	str="53"	dex="17"	int="6"	class="2hand"	skill1idx="419"	skill1slotidx="37"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="34"	dex="36"	int="6"	class="dual"	skill1idx="419"	skill1slotidx="37"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="6"	dex="13"	int="57"	class="magic"	skill1idx="419"	skill1slotidx="37"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="12"	dex="26"	int="38"	class="magic_arrow"	skill1idx="419"	skill1slotidx="37"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="31"	dex="20"	int="25"	class="sword_shield"	skill1idx="419"	skill1slotidx="37"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="25"	dex="26"	int="25"	class="magic_sword"	skill1idx="419"	skill1slotidx="37"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="42"	dex="27"	int="7"	class="chakram"	skill1idx="419"	skill1slotidx="37"	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="2"	>
+			<condition	str="91"	dex="29"	int="10"	class="2hand"	skill1idx="333"	skill1slotidx="36"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="60"	dex="60"	int="10"	class="dual"	skill1idx="333"	skill1slotidx="36"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="10"	dex="23"	int="97"	class="magic"	skill1idx="333"	skill1slotidx="36"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="21"	dex="45"	int="64"	class="magic_arrow"	skill1idx="333"	skill1slotidx="36"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="53"	dex="34"	int="43"	class="sword_shield"	skill1idx="333"	skill1slotidx="36"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="43"	dex="44"	int="43"	class="magic_sword"	skill1idx="333"	skill1slotidx="36"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="71"	dex="47"	int="12"	class="chakram"	skill1idx="333"	skill1slotidx="36"	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="3"	>
+			<condition	str="126"	dex="38"	int="14"	class="2hand"	skill1idx="340"	skill1slotidx="38"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="81"	dex="83"	int="14"	class="dual"	skill1idx="342"	skill1slotidx="38"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="14"	dex="31"	int="133"	class="magic"	skill1idx="344"	skill1slotidx="38"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="29"	dex="60"	int="89"	class="magic_arrow"	skill1idx="346"	skill1slotidx="38"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="74"	dex="45"	int="59"	class="sword_shield"	skill1idx="348"	skill1slotidx="38"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="59"	dex="60"	int="59"	class="magic_sword"	skill1idx="350"	skill1slotidx="38"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="101"	dex="61"	int="16"	class="chakram"	skill1idx="350"	skill1slotidx="38"	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="4"	>
+			<condition	str="167"	dex="51"	int="19"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="108"	dex="110"	int="19"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="19"	dex="41"	int="177"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="39"	dex="80"	int="118"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="98"	dex="60"	int="79"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="79"	dex="79"	int="79"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="133"	dex="82"	int="22"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="5"	>
+			<condition	str="201"	dex="61"	int="23"	class="2hand"	skill1idx="341"	skill1slotidx="39"	skill2idx="400"	skill2slotidx="41"	/>
+			<condition	str="130"	dex="132"	int="23"	class="dual"	skill1idx="343"	skill1slotidx="39"	skill2idx="402"	skill2slotidx="41"	/>
+			<condition	str="23"	dex="49"	int="213"	class="magic"	skill1idx="345"	skill1slotidx="39"	skill2idx="404"	skill2slotidx="41"	/>
+			<condition	str="47"	dex="96"	int="142"	class="magic_arrow"	skill1idx="347"	skill1slotidx="39"	skill2idx="406"	skill2slotidx="41"	/>
+			<condition	str="118"	dex="72"	int="95"	class="sword_shield"	skill1idx="349"	skill1slotidx="39"	skill2idx="408"	skill2slotidx="41"	/>
+			<condition	str="95"	dex="95"	int="95"	class="magic_sword"	skill1idx="351"	skill1slotidx="39"	skill2idx="410"	skill2slotidx="41"	/>
+			<condition	str="159"	dex="99"	int="27"	class="chakram"	skill1idx="351"	skill1slotidx="39"	skill2idx="410"	skill2slotidx="41"	/>
+		</mastery_levelup>
+		<mastery_levelup	level="6"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx="401"	skill1slotidx="42"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx="403"	skill1slotidx="42"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx="405"	skill1slotidx="42"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx="407"	skill1slotidx="42"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx="409"	skill1slotidx="42"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx="411"	skill1slotidx="42"	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx="411"	skill1slotidx="42"	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="7"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="8"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="9"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="10"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="11"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="12"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="13"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="14"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="15"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="16"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="17"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="18"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="19"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="20"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<mastery_levelup	level="21"	>
+			<condition	str="245"	dex="74"	int="28"	class="2hand"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="159"	dex="160"	int="28"	class="dual"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="28"	dex="59"	int="260"	class="magic"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="57"	dex="117"	int="173"	class="magic_arrow"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="144"	dex="88"	int="115"	class="sword_shield"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="115"	dex="117"	int="115"	class="magic_sword"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+			<condition	str="194"	dex="120"	int="33"	class="chakram"	skill1idx=""	skill1slotidx=""	skill2idx=""	skill2slotidx=""	/>
+		</mastery_levelup>
+		<exp_for_point	rank="1"	>
+			<condition	exp="3124"	class="2hand"	/>
+			<condition	exp="3124"	class="dual"	/>
+			<condition	exp="3124"	class="magic"	/>
+			<condition	exp="3124"	class="magic_arrow"	/>
+			<condition	exp="3124"	class="sword_shield"	/>
+			<condition	exp="3124"	class="magic_sword"	/>
+			<condition	exp="3124"	class="chakram"	/>
+		</exp_for_point>
+		<exp_for_point	rank="2"	>
+			<condition	exp="6718"	class="2hand"	/>
+			<condition	exp="6718"	class="dual"	/>
+			<condition	exp="6718"	class="magic"	/>
+			<condition	exp="6718"	class="magic_arrow"	/>
+			<condition	exp="6718"	class="sword_shield"	/>
+			<condition	exp="6718"	class="magic_sword"	/>
+			<condition	exp="6718"	class="chakram"	/>
+		</exp_for_point>
+		<exp_for_point	rank="3"	>
+			<condition	exp="8646"	class="2hand"	/>
+			<condition	exp="8646"	class="dual"	/>
+			<condition	exp="8646"	class="magic"	/>
+			<condition	exp="8646"	class="magic_arrow"	/>
+			<condition	exp="8646"	class="sword_shield"	/>
+			<condition	exp="8646"	class="magic_sword"	/>
+			<condition	exp="8646"	class="chakram"	/>
+		</exp_for_point>
+		<exp_for_point	rank="4"	>
+			<condition	exp="10312"	class="2hand"	/>
+			<condition	exp="10312"	class="dual"	/>
+			<condition	exp="10312"	class="magic"	/>
+			<condition	exp="10312"	class="magic_arrow"	/>
+			<condition	exp="10312"	class="sword_shield"	/>
+			<condition	exp="10312"	class="magic_sword"	/>
+			<condition	exp="10312"	class="chakram"	/>
+		</exp_for_point>
+		<exp_for_point	rank="5"	>
+			<condition	exp="11999"	class="2hand"	/>
+			<condition	exp="11999"	class="dual"	/>
+			<condition	exp="11999"	class="magic"	/>
+			<condition	exp="11999"	class="magic_arrow"	/>
+			<condition	exp="11999"	class="sword_shield"	/>
+			<condition	exp="11999"	class="magic_sword"	/>
+			<condition	exp="11999"	class="chakram"	/>
+		</exp_for_point>
+		<exp_for_point	rank="6"	>
+			<condition	exp="13802"	class="2hand"	/>
+			<condition	exp="13802"	class="dual"	/>
+			<condition	exp="13802"	class="magic"	/>
+			<condition	exp="13802"	class="magic_arrow"	/>
+			<condition	exp="13802"	class="sword_shield"	/>
+			<condition	exp="13802"	class="magic_sword"	/>
+			<condition	exp="13802"	class="chakram"	/>
+		</exp_for_point>
+		<exp_for_point	rank="7"	>
+			<condition	exp="15759"	class="2hand"	/>
+			<condition	exp="15759"	class="dual"	/>
+			<condition	exp="15759"	class="magic"	/>
+			<condition	exp="15759"	class="magic_arrow"	/>
+			<condition	exp="15759"	class="sword_shield"	/>
+			<condition	exp="15759"	class="magic_sword"	/>
+			<condition	exp="15759"	class="chakram"	/>
+		</exp_for_point>
+		<exp_for_point	rank="8"	>
+			<condition	exp="17890"	class="2hand"	/>
+			<condition	exp="17890"	class="dual"	/>
+			<condition	exp="17890"	class="magic"	/>
+			<condition	exp="17890"	class="magic_arrow"	/>
+			<condition	exp="17890"	class="sword_shield"	/>
+			<condition	exp="17890"	class="magic_sword"	/>
+			<condition	exp="17890"	class="chakram"	/>
+		</exp_for_point>
+		<exp_for_point	rank="9"	>
+			<condition	exp="20207"	class="2hand"	/>
+			<condition	exp="20207"	class="dual"	/>
+			<condition	exp="20207"	class="magic"	/>
+			<condition	exp="20207"	class="magic_arrow"	/>
+			<condition	exp="20207"	class="sword_shield"	/>
+			<condition	exp="20207"	class="magic_sword"	/>
+			<condition	exp="20207"	class="chakram"	/>
+		</exp_for_point>
+		<exp_for_point	rank="10"	>
+			<condition	exp="22719"	class="2hand"	/>
+			<condition	exp="22719"	class="dual"	/>
+			<condition	exp="22719"	class="magic"	/>
+			<condition	exp="22719"	class="magic_arrow"	/>
+			<condition	exp="22719"	class="sword_shield"	/>
+			<condition	exp="22719"	class="magic_sword"	/>
+			<condition	exp="22719"	class="chakram"	/>
+		</exp_for_point>
+		<class_formula	class="2hand"	class_atk="8,-7"	class_matk="5,-2"	class_def="8,-5"	class_ar="14,-4"	class_dr="10,-1"	class_dmgdsc="2,1"	class_hit="5,-1"	class_penet="2,-1"	/>
+		<class_formula	class="dual"	class_atk="7,-6"	class_matk="5,-2"	class_def="7,-2"	class_ar="28,-15"	class_dr="18,-12"	class_dmgdsc="5,-3"	class_hit="10,-4"	class_penet="3,-1"	/>
+		<class_formula	class="magic"	class_atk="5,-2"	class_matk="8,-7"	class_def="6,-2"	class_ar="14,-2"	class_dr="8,-5"	class_dmgdsc="4,-2"	class_hit="7,-2"	class_penet="4,-1"	/>
+		<class_formula	class="magic_arrow"	class_atk="5,-3"	class_matk="6,-5"	class_def="5,-2"	class_ar="21,-12"	class_dr="6,-2"	class_dmgdsc="4,-2"	class_hit="7,-2"	class_penet="6,-3"	/>
+		<class_formula	class="sword_shield"	class_atk="7,-1"	class_matk="5,-4"	class_def="8,-4"	class_ar="7,-1"	class_dr="36,-18"	class_dmgdsc="8,-4"	class_hit="3,0"	class_penet="5,-2"	/>
+		<class_formula	class="magic_sword"	class_atk="7,-2"	class_matk="5,-4"	class_def="6,-2"	class_ar="7,-1"	class_dr="6,-1"	class_dmgdsc="5,-3"	class_hit="15,-7"	class_penet="5,-2"	/>
+		<class_formula	class="chakram"	class_atk="7,-2"	class_matk="5,-2"	class_def="5,-1"	class_ar="18,-1"	class_dr="12,-9"	class_dmgdsc="1,1"	class_hit="12,-5"	class_penet="5,-2"	/>
+		<stat_formula>
+			<flag	class="2hand"	atk_flag="1,0,0"	atk_code="1"	matk_flag="0,0,1"	matk_code="7"	dmgdcs_flag="1,0,0"	dmgdcs_code="13"	flee_flag="0,1,0"	flee_code="19"	ar_flag="0,1,0"	ar_code="25"	dr_flag="0,1,0"	dr_code="31"	crpreg_flag="0,0,1"	crpreg_code="37"	samreg_flag="0,0,1"	samreg_code="38"	crdreg_flag="0,0,1"	crdreg_code="39"	movreg_flag="0,0,1"	movreg_code="40"	stnreg_flag="0,0,1"	stnreg_code="41"	dwnreg_flag="0,0,1"	dwnreg_code="42"	nubreg_flag="0,0,1"	nubreg_code="43"	hp_flag="1,0,0"	hp_code="44"	mp_flag="0,0,1"	mp_code="45"	ignorepenet_flag="0,0,1"	ignorepenet_code="53"	/>
+			<flag	class="dual"	atk_flag="1,1,0"	atk_code="2"	matk_flag="0,0,1"	matk_code="8"	dmgdcs_flag="1,0,0"	dmgdcs_code="14"	flee_flag="0,1,0"	flee_code="20"	ar_flag="0,1,0"	ar_code="26"	dr_flag="0,1,0"	dr_code="32"	crpreg_flag="0,0,1"	crpreg_code="37"	samreg_flag="0,0,1"	samreg_code="38"	crdreg_flag="0,0,1"	crdreg_code="39"	movreg_flag="0,0,1"	movreg_code="40"	stnreg_flag="0,0,1"	stnreg_code="41"	dwnreg_flag="0,0,1"	dwnreg_code="42"	nubreg_flag="0,0,1"	nubreg_code="43"	hp_flag="1,0,0"	hp_code="44"	mp_flag="0,0,1"	mp_code="45"	ignorepenet_flag="0,0,1"	ignorepenet_code="53"	/>
+			<flag	class="magic"	atk_flag="1,0,0"	atk_code="3"	matk_flag="0,0,1"	matk_code="9"	dmgdcs_flag="1,0,0"	dmgdcs_code="15"	flee_flag="0,1,0"	flee_code="21"	ar_flag="0,1,0"	ar_code="27"	dr_flag="0,1,0"	dr_code="33"	crpreg_flag="0,0,1"	crpreg_code="37"	samreg_flag="0,0,1"	samreg_code="38"	crdreg_flag="0,0,1"	crdreg_code="39"	movreg_flag="0,0,1"	movreg_code="40"	stnreg_flag="0,0,1"	stnreg_code="41"	dwnreg_flag="0,0,1"	dwnreg_code="42"	nubreg_flag="0,0,1"	nubreg_code="43"	hp_flag="1,0,0"	hp_code="44"	mp_flag="0,0,1"	mp_code="45"	ignorepenet_flag="0,0,1"	ignorepenet_code="53"	/>
+			<flag	class="magic_arrow"	atk_flag="1,0,0"	atk_code="4"	matk_flag="0,0,1"	matk_code="10"	dmgdcs_flag="1,0,0"	dmgdcs_code="16"	flee_flag="0,1,0"	flee_code="22"	ar_flag="0,1,0"	ar_code="28"	dr_flag="0,1,0"	dr_code="34"	crpreg_flag="0,0,1"	crpreg_code="37"	samreg_flag="0,0,1"	samreg_code="38"	crdreg_flag="0,0,1"	crdreg_code="39"	movreg_flag="0,0,1"	movreg_code="40"	stnreg_flag="0,0,1"	stnreg_code="41"	dwnreg_flag="0,0,1"	dwnreg_code="42"	nubreg_flag="0,0,1"	nubreg_code="43"	hp_flag="1,0,0"	hp_code="44"	mp_flag="0,0,1"	mp_code="45"	ignorepenet_flag="0,0,1"	ignorepenet_code="53"	/>
+			<flag	class="sword_shield"	atk_flag="1,0,0"	atk_code="5"	matk_flag="0,0,1"	matk_code="11"	dmgdcs_flag="1,0,0"	dmgdcs_code="17"	flee_flag="0,1,0"	flee_code="23"	ar_flag="0,1,0"	ar_code="29"	dr_flag="0,1,0"	dr_code="35"	crpreg_flag="0,0,1"	crpreg_code="37"	samreg_flag="0,0,1"	samreg_code="38"	crdreg_flag="0,0,1"	crdreg_code="39"	movreg_flag="0,0,1"	movreg_code="40"	stnreg_flag="0,0,1"	stnreg_code="41"	dwnreg_flag="0,0,1"	dwnreg_code="42"	nubreg_flag="0,0,1"	nubreg_code="43"	hp_flag="1,0,0"	hp_code="44"	mp_flag="0,0,1"	mp_code="45"	ignorepenet_flag="0,0,1"	ignorepenet_code="53"	/>
+			<flag	class="magic_sword"	atk_flag="1,1,0"	atk_code="6"	matk_flag="0,0,1"	matk_code="12"	dmgdcs_flag="1,0,0"	dmgdcs_code="18"	flee_flag="0,1,0"	flee_code="24"	ar_flag="0,1,0"	ar_code="30"	dr_flag="0,1,0"	dr_code="36"	crpreg_flag="0,0,1"	crpreg_code="37"	samreg_flag="0,0,1"	samreg_code="38"	crdreg_flag="0,0,1"	crdreg_code="39"	movreg_flag="0,0,1"	movreg_code="40"	stnreg_flag="0,0,1"	stnreg_code="41"	dwnreg_flag="0,0,1"	dwnreg_code="42"	nubreg_flag="0,0,1"	nubreg_code="43"	hp_flag="1,0,0"	hp_code="44"	mp_flag="0,0,1"	mp_code="45"	ignorepenet_flag="0,0,1"	ignorepenet_code="53"	/>
+			<flag	class="chakram"	atk_flag="1,0,0"	atk_code="46"	matk_flag="0,0,1"	matk_code="47"	dmgdcs_flag="1,0,0"	dmgdcs_code="48"	flee_flag="0,1,0"	flee_code="49"	ar_flag="0,1,0"	ar_code="50"	dr_flag="0,1,0"	dr_code="51"	crpreg_flag="0,0,1"	crpreg_code="37"	samreg_flag="0,0,1"	samreg_code="38"	crdreg_flag="0,0,1"	crdreg_code="39"	movreg_flag="0,0,1"	movreg_code="40"	stnreg_flag="0,0,1"	stnreg_code="41"	dwnreg_flag="0,0,1"	dwnreg_code="42"	nubreg_flag="0,0,1"	nubreg_code="43"	hp_flag="1,0,0"	hp_code="52"	mp_flag="0,0,1"	mp_code="45"	ignorepenet_flag="0,0,1"	ignorepenet_code="53"	/>
+			<parameter	code="1"	>
+				<condition	penalty_stat="0"	slope="1000"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="800"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="2"	>
+				<condition	penalty_stat="0"	slope="800"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="600"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="3"	>
+				<condition	penalty_stat="0"	slope="300"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="200"	intercept="100000"	/>
+			</parameter>
+			<parameter	code="4"	>
+				<condition	penalty_stat="0"	slope="300"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="200"	intercept="100000"	/>
+			</parameter>
+			<parameter	code="5"	>
+				<condition	penalty_stat="0"	slope="700"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="500"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="6"	>
+				<condition	penalty_stat="0"	slope="600"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="400"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="7"	>
+				<condition	penalty_stat="0"	slope="300"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="200"	intercept="100000"	/>
+			</parameter>
+			<parameter	code="8"	>
+				<condition	penalty_stat="0"	slope="300"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="200"	intercept="100000"	/>
+			</parameter>
+			<parameter	code="9"	>
+				<condition	penalty_stat="0"	slope="1000"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="800"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="10"	>
+				<condition	penalty_stat="0"	slope="700"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="500"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="11"	>
+				<condition	penalty_stat="0"	slope="500"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="300"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="12"	>
+				<condition	penalty_stat="0"	slope="500"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="300"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="13"	>
+				<condition	penalty_stat="0"	slope="400"	intercept="0"	/>
+				<condition	penalty_stat="600"	slope="150"	intercept="150000"	/>
+				<condition	penalty_stat="1100"	slope="100"	intercept="205000"	/>
+			</parameter>
+			<parameter	code="14"	>
+				<condition	penalty_stat="0"	slope="500"	intercept="0"	/>
+				<condition	penalty_stat="300"	slope="300"	intercept="60000"	/>
+				<condition	penalty_stat="600"	slope="150"	intercept="150000"	/>
+				<condition	penalty_stat="1100"	slope="100"	intercept="205000"	/>
+			</parameter>
+			<parameter	code="15"	>
+				<condition	penalty_stat="0"	slope="700"	intercept="0"	/>
+				<condition	penalty_stat="50"	slope="500"	intercept="10000"	/>
+				<condition	penalty_stat="100"	slope="600"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="300"	intercept="60000"	/>
+				<condition	penalty_stat="600"	slope="150"	intercept="150000"	/>
+				<condition	penalty_stat="1100"	slope="100"	intercept="205000"	/>
+			</parameter>
+			<parameter	code="16"	>
+				<condition	penalty_stat="0"	slope="700"	intercept="0"	/>
+				<condition	penalty_stat="50"	slope="500"	intercept="10000"	/>
+				<condition	penalty_stat="100"	slope="600"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="300"	intercept="60000"	/>
+				<condition	penalty_stat="600"	slope="150"	intercept="150000"	/>
+				<condition	penalty_stat="1100"	slope="100"	intercept="205000"	/>
+			</parameter>
+			<parameter	code="17"	>
+				<condition	penalty_stat="0"	slope="400"	intercept="0"	/>
+				<condition	penalty_stat="600"	slope="150"	intercept="150000"	/>
+				<condition	penalty_stat="1100"	slope="100"	intercept="205000"	/>
+			</parameter>
+			<parameter	code="18"	>
+				<condition	penalty_stat="0"	slope="500"	intercept="0"	/>
+				<condition	penalty_stat="300"	slope="300"	intercept="60000"	/>
+				<condition	penalty_stat="600"	slope="150"	intercept="150000"	/>
+				<condition	penalty_stat="1100"	slope="100"	intercept="205000"	/>
+			</parameter>
+			<parameter	code="19"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="20"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="21"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="22"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="23"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="24"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="25"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="26"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="27"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="28"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="29"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="30"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="31"	>
+				<condition	penalty_stat="0"	slope="5000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="1500"	intercept="700000"	/>
+				<condition	penalty_stat="600"	slope="1000"	intercept="1000000"	/>
+				<condition	penalty_stat="1100"	slope="500"	intercept="1550000"	/>
+			</parameter>
+			<parameter	code="32"	>
+				<condition	penalty_stat="0"	slope="5000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="1500"	intercept="700000"	/>
+				<condition	penalty_stat="600"	slope="1000"	intercept="1000000"	/>
+				<condition	penalty_stat="1100"	slope="500"	intercept="1550000"	/>
+			</parameter>
+			<parameter	code="33"	>
+				<condition	penalty_stat="0"	slope="5000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="1500"	intercept="700000"	/>
+				<condition	penalty_stat="600"	slope="1000"	intercept="1000000"	/>
+				<condition	penalty_stat="1100"	slope="500"	intercept="1550000"	/>
+			</parameter>
+			<parameter	code="34"	>
+				<condition	penalty_stat="0"	slope="5000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="1500"	intercept="700000"	/>
+				<condition	penalty_stat="600"	slope="1000"	intercept="1000000"	/>
+				<condition	penalty_stat="1100"	slope="500"	intercept="1550000"	/>
+			</parameter>
+			<parameter	code="35"	>
+				<condition	penalty_stat="0"	slope="5000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="1500"	intercept="700000"	/>
+				<condition	penalty_stat="600"	slope="1000"	intercept="1000000"	/>
+				<condition	penalty_stat="1100"	slope="500"	intercept="1550000"	/>
+			</parameter>
+			<parameter	code="36"	>
+				<condition	penalty_stat="0"	slope="5000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="1500"	intercept="700000"	/>
+				<condition	penalty_stat="600"	slope="1000"	intercept="1000000"	/>
+				<condition	penalty_stat="1100"	slope="500"	intercept="1550000"	/>
+			</parameter>
+			<parameter	code="37"	>
+				<condition	penalty_stat="0"	slope="20"	intercept="0"	/>
+				<condition	penalty_stat="100"	slope="10"	intercept="1000"	/>
+				<condition	penalty_stat="200"	slope="4"	intercept="2200"	/>
+			</parameter>
+			<parameter	code="38"	>
+				<condition	penalty_stat="0"	slope="30"	intercept="0"	/>
+				<condition	penalty_stat="100"	slope="10"	intercept="2000"	/>
+				<condition	penalty_stat="200"	slope="5"	intercept="3000"	/>
+			</parameter>
+			<parameter	code="39"	>
+				<condition	penalty_stat="0"	slope="60"	intercept="0"	/>
+				<condition	penalty_stat="100"	slope="20"	intercept="4000"	/>
+				<condition	penalty_stat="200"	slope="10"	intercept="6000"	/>
+			</parameter>
+			<parameter	code="40"	>
+				<condition	penalty_stat="0"	slope="20"	intercept="0"	/>
+				<condition	penalty_stat="100"	slope="10"	intercept="1000"	/>
+				<condition	penalty_stat="200"	slope="4"	intercept="2200"	/>
+			</parameter>
+			<parameter	code="41"	>
+				<condition	penalty_stat="0"	slope="30"	intercept="0"	/>
+				<condition	penalty_stat="100"	slope="10"	intercept="2000"	/>
+				<condition	penalty_stat="200"	slope="5"	intercept="3000"	/>
+			</parameter>
+			<parameter	code="42"	>
+				<condition	penalty_stat="0"	slope="30"	intercept="0"	/>
+				<condition	penalty_stat="100"	slope="10"	intercept="2000"	/>
+				<condition	penalty_stat="200"	slope="5"	intercept="3000"	/>
+			</parameter>
+			<parameter	code="43"	>
+				<condition	penalty_stat="0"	slope="30"	intercept="0"	/>
+				<condition	penalty_stat="100"	slope="10"	intercept="2000"	/>
+				<condition	penalty_stat="200"	slope="5"	intercept="3000"	/>
+			</parameter>
+			<parameter	code="44"	>
+				<condition	penalty_stat="0"	slope="0"	intercept="0"	/>
+				<condition	penalty_stat="100"	slope="1000"	intercept="-100000"	/>
+				<condition	penalty_stat="200"	slope="500"	intercept="0"	/>
+				<condition	penalty_stat="600"	slope="250"	intercept="150000"	/>
+				<condition	penalty_stat="1000"	slope="200"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="45"	>
+				<condition	penalty_stat="0"	slope="0"	intercept="0"	/>
+			</parameter>
+			<parameter	code="46"	>
+				<condition	penalty_stat="0"	slope="900"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="450"	intercept="450000"	/>
+			</parameter>
+			<parameter	code="47"	>
+				<condition	penalty_stat="0"	slope="400"	intercept="0"	/>
+				<condition	penalty_stat="1000"	slope="200"	intercept="200000"	/>
+			</parameter>
+			<parameter	code="48"	>
+				<condition	penalty_stat="0"	slope="500"	intercept="0"	/>
+				<condition	penalty_stat="300"	slope="300"	intercept="60000"	/>
+				<condition	penalty_stat="600"	slope="150"	intercept="150000"	/>
+				<condition	penalty_stat="1100"	slope="100"	intercept="205000"	/>
+			</parameter>
+			<parameter	code="49"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="50"	>
+				<condition	penalty_stat="0"	slope="6000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="2000"	intercept="800000"	/>
+				<condition	penalty_stat="600"	slope="1500"	intercept="1100000"	/>
+				<condition	penalty_stat="1100"	slope="1000"	intercept="1650000"	/>
+			</parameter>
+			<parameter	code="51"	>
+				<condition	penalty_stat="0"	slope="5000"	intercept="0"	/>
+				<condition	penalty_stat="200"	slope="1500"	intercept="700000"	/>
+				<condition	penalty_stat="600"	slope="1000"	intercept="1000000"	/>
+				<condition	penalty_stat="1100"	slope="500"	intercept="1550000"	/>
+			</parameter>
+			<parameter	code="52"	>
+				<condition	penalty_stat="0"	slope="0"	intercept="0"	/>
+				<condition	penalty_stat="100"	slope="800"	intercept="-80000"	/>
+				<condition	penalty_stat="200"	slope="400"	intercept="0"	/>
+				<condition	penalty_stat="600"	slope="250"	intercept="90000"	/>
+				<condition	penalty_stat="1000"	slope="200"	intercept="140000"	/>
+			</parameter>
+			<parameter	code="53"	>
+				<condition	penalty_stat="0"	slope="20"	intercept="0"	/>
+			</parameter>
+		</stat_formula>
+	</rankup>
+	<rank_title>
+		<rank_name	rank="1"	name="rank1"	/>
+		<rank_name	rank="2"	name="rank2"	/>
+		<rank_name	rank="3"	name="rank3"	/>
+		<rank_name	rank="4"	name="rank4"	/>
+		<rank_name	rank="5"	name="rank5"	/>
+		<rank_name	rank="6"	name="rank6"	/>
+		<rank_name	rank="7"	name="rank7"	/>
+		<rank_name	rank="8"	name="rank8"	/>
+		<rank_name	rank="9"	name="rank9"	/>
+		<rank_name	rank="10"	name="rank10"	/>
+	</rank_title>
+</InitialData>
