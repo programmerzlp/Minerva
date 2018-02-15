@@ -33,7 +33,9 @@ This is Minerva - CABAL Online Server Emulator, written in C# language. Initiall
 * Compiled x86 bits
 [Minerva.x86.zip](https://github.com/centrinogames/minerva/files/1729028/Minerva.x86.zip)
 
+### MariaDB + HeidiSQL ###
 
+* [Download](https://mariadb.com/kb/en/library/heidisql/)
 
 ### Compatible with ###
 
