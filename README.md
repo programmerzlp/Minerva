@@ -1,4 +1,4 @@
-# Minerva #
+# Minerva Emulator Episode 18 #
 
 This is Minerva - CABAL Online Server Emulator, written in C# language. Initially started by The Divinity Project, now being managed CentrinoGames.
 
@@ -15,13 +15,24 @@ This is Minerva - CABAL Online Server Emulator, written in C# language. Initiall
 * Client is official [CABAL ENG-US] http://cabal.playthisgame.com/en/
 
 
-### Client Download and other stuff ###
+### Client Download Links ###
 
+** Cabal Brazil Client Portuguese: **
 * [Download CABAL BR EP18 Primary]http://cabal.br.playthisgame.com/pt/FullClient/BRASIL
-* [Download CABAL ENG EP18 Primary]http://cabal.playthisgame.com/en/FullClient/WEST
-
 * [Download CABAL BR EP18 Secondary]http://cabal.br.playthisgame.com/pt/FullClient/GLOBAL
+
+** Cabal Global Client English: **
+* [Download CABAL ENG EP18 Primary]http://cabal.playthisgame.com/en/FullClient/WEST
 * [Download CABAL ENG EP18 Secondary]http://cabal.playthisgame.com/en/FullClient/GLOBAL
+
+### Compiled Release Files ###
+
+* Compiled x64 bits
+[Minerva.x64.zip](https://github.com/centrinogames/minerva/files/1729011/Minerva.x64.zip)
+
+* Compiled x86 bits
+[Minerva.x86.zip](https://github.com/centrinogames/minerva/files/1729028/Minerva.x86.zip)
+
 
 
 ### Compatible with ###
