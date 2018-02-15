@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Minerva Login Server")]
 [assembly: AssemblyDescription("CABAL Online Server Emulator - Login Server")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Dignity Team")]
+[assembly: AssemblyCompany("CentrinoGames")]
 [assembly: AssemblyProduct("Minerva")]
-[assembly: AssemblyCopyright("Copyright © Dignity Team 2013-2016; The Divinity Project 2010")]
+[assembly: AssemblyCopyright("Copyright © The Divinity Project 2010; Dignity Team 2013-2016; CentrinoGames 2018.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

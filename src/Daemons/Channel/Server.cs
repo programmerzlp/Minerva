@@ -68,6 +68,8 @@ namespace Minerva
 
             Util.Info.PrintLogo();
             Console.WriteLine();
+            Util.Info.PrintInfo();
+            Console.WriteLine();
 
             AppDomain.CurrentDomain.UnhandledException += UnhandledException;
 

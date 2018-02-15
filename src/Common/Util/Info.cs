@@ -53,5 +53,14 @@ namespace Minerva.Util
             Console.WriteLine(
 @"         |/     \|\_______/|/    \_||_______/|/   \__/   \_/   |/     \|");
         }
+
+        public static void PrintInfo()
+        {
+            Console.ForegroundColor = ConsoleColor.White;
+            var version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+            var offset = (Console.WindowWidth + version.ToString().Length + 8) / 2;
+            Console.WriteLine(String.Format("version {0}", version).PadLeft(offset, ' '), ConsoleColor.White);
+            
+        }
     }
 }
